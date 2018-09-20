@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Leo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioclick"
+                android:checked="false"
+                android:text="Leo" />
+
+            <RadioButton
+                android:id="@+id/Mike"
+                android:layout_width="wrap_content"
+                android:onClick="radioclick"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Mike"
+
+                />
+
+            <RadioButton
+                android:id="@+id/Don"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:onClick="radioclick"
+                android:text="Don" />
+
+            <RadioButton
+                android:id="@+id/Raph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:onClick="radioclick"
+                android:text="Raph" />
+        </RadioGroup>
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/image"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        />
+</LinearLayout>
